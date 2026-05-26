@@ -1,0 +1,37 @@
+/* Gradient background */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Frosted glass cards */
+.stTextArea, .stSelectbox, .stButton {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.stButton:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
